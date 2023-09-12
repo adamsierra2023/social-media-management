@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Contains the flow to approve Social Media Responses</description>
+        <internal_name>social_media_response_approvals</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Social Media Response Approvals</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 11:11:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec340d5cb0d131107f44c10ee770acfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Social Media Response Approvals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name>sys_hub_flow_ec340d5cb0d131107f44c10ee770acfb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 11:11:27</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_variable_value action="DELETE" query="document_key=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=ec340d5cb0d131107f44c10ee770acfb^sys_idNOT IN6c340d5cb0d131107f44c10ee770acfd"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>ec340d5cb0d131107f44c10ee770acfb</id>
+        <name>Social Media Response Approvals</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 11:11:27</sys_created_on>
+        <sys_id>6c340d5cb0d131107f44c10ee770acfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 11:11:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=6c340d5cb0d131107f44c10ee770acfd"/>
+    <sys_hub_flow_input action="DELETE" query="model=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_hub_flow_output action="DELETE" query="model=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_hub_action_instance action="DELETE" query="flow=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_hub_flow_variable action="DELETE" query="model=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=ec340d5cb0d131107f44c10ee770acfb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</application>
+        <file_path/>
+        <instance_id>e17e3fab1b4d7510e44185507e4bcbce</instance_id>
+        <instance_name>nowlearning-nlinst01065463-001</instance_name>
+        <name>sys_hub_flow_ec340d5cb0d131107f44c10ee770acfb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description>Contains the flow to approve Social Media Responses</description><internal_name>social_media_response_approvals</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Social Media Response Approvals</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-11 11:11:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ec340d5cb0d131107f44c10ee770acfb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Social Media Response Approvals</sys_name><sys_overrides/><sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package><sys_policy/><sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope><sys_update_name>sys_hub_flow_ec340d5cb0d131107f44c10ee770acfb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-11 11:11:27</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=ec340d5cb0d131107f44c10ee770acfb"/><sys_variable_value action="delete_multiple" query="document_key=ec340d5cb0d131107f44c10ee770acfb"/><sys_hub_trigger_instance action="delete_multiple" query="flow=ec340d5cb0d131107f44c10ee770acfb"/><sys_hub_flow_stage action="delete_multiple" query="flow=ec340d5cb0d131107f44c10ee770acfb"/><sys_flow_cat_variable_model action="delete_multiple" query="id=ec340d5cb0d131107f44c10ee770acfb^sys_idNOT IN6c340d5cb0d131107f44c10ee770acfd"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>ec340d5cb0d131107f44c10ee770acfb</id><name>Social Media Response Approvals</name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-11 11:11:27</sys_created_on><sys_id>6c340d5cb0d131107f44c10ee770acfd</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-11 11:11:27</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6c340d5cb0d131107f44c10ee770acfd"/><sys_hub_flow_input action="delete_multiple" query="model=ec340d5cb0d131107f44c10ee770acfb"/><sys_hub_flow_output action="delete_multiple" query="model=ec340d5cb0d131107f44c10ee770acfb"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=ec340d5cb0d131107f44c10ee770acfb"/><sys_hub_action_instance action="delete_multiple" query="flow=ec340d5cb0d131107f44c10ee770acfb"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=ec340d5cb0d131107f44c10ee770acfb"/><sys_hub_flow_logic action="delete_multiple" query="flow=ec340d5cb0d131107f44c10ee770acfb"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=ec340d5cb0d131107f44c10ee770acfb"/><sys_hub_flow_variable action="delete_multiple" query="model=ec340d5cb0d131107f44c10ee770acfb"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ec340d5cb0d131107f44c10ee770acfb"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ec340d5cb0d131107f44c10ee770acfb"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ec340d5cb0d131107f44c10ee770acfb"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ec340d5cb0d131107f44c10ee770acfb"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=ec340d5cb0d131107f44c10ee770acfb"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=ec340d5cb0d131107f44c10ee770acfb"/></record_update>]]></payload>
+        <payload_hash>-1690228730</payload_hash>
+        <record_name>Social Media Response Approvals</record_name>
+        <reverted_from/>
+        <source>465efc14b0d131107f44c10ee770ac9f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 11:11:27</sys_created_on>
+        <sys_id>bc344d5cb0d131107f44c10ee770ac03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a83f072750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 11:11:27</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>f4344d5c84d1311035df84e7b0d8d203</update_guid>
+        <update_guid_history>f4344d5c84d1311035df84e7b0d8d203:-1690228730</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 11:15:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>12e792d2e5fc4448ac5fd094d1176184</sys_id>
+        <sys_metadata>ec340d5cb0d131107f44c10ee770acfb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Social Media Response Approvals</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_scope_delete display_value="">7025c331eebe40a09bb7b33293480440</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_ec340d5cb0d131107f44c10ee770acfb</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_ec340d5cb0d131107f44c10ee770acfb">bc344d5cb0d131107f44c10ee770ac03</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 11:15:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
